@@ -38,3 +38,21 @@
 
 
 
+# menber = ["오로라", "석수", "곰돌이", "수정", "피구들", "돼지", "유카리"]
+# absent = ["곰돌이", "석수"]
+# no_need = ["피구들"]
+
+# for friends in menber:
+#     if friends in absent:
+#         continue
+   
+#     if friends in no_need:
+#         print(f"오늘은 여기까지")
+#         break
+
+#     print(f"{friends}야, 먼지 털자!!")
+
+#
+number = [1, 2, 3, 4, 5] 
+number = [i+100 for i in number]
+print(number)
