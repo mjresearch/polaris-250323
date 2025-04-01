@@ -26,6 +26,22 @@ def std_weight(height, gender):
 std_weight(154, "여자")
 std_weight(172, "남자")
 
+
+# by me 수정 (return 써봄)
+
+def std_weight(height, gender):
+    if gender == "남자":
+        result = ((height * 0.01) ** 2) * 22
+    elif gender == "여자":
+        result = ((height * 0.01) ** 2) * 21
+    return result
+    
+height = 154
+gender  = "여자"
+result = std_weight(height, gender)
+
+print(f"키 {height}cm {gender}의 표준체중은 {result:.2f}kg 입니다.")
+
 # 쌤 해설
 def std_weight(height, gender):
     if gender == "남자":
